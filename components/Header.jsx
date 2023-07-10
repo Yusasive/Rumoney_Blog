@@ -16,8 +16,9 @@ const Header = () => {
     <div className="container mx-auto px-10 mb-8">
       <div className="border-b w-full inline-block border-blue-400 py-8">
         <div className="md:float-left block">
+          <Link rel="noreferrer noopener" href="https://www.rumoney.digital/"><span className="font-bold mr-4 text-1xl text-white">Back</span></Link>
           <Link href="/">
-            <span className="cursor-pointer font-bold text-4xl text-white">Rumoney Blog</span>
+            <span className="cursor-pointer font-bold text-3xl text-white">Rumoney Blog</span>
           </Link>
         </div>
         <div className="hidden md:float-left md:contents">
